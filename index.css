@@ -1,5 +1,37 @@
 #heading{
-    color : red;
+
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#parent{
+  
+    color: green;
+    text-shadow: 2px 2px 8px;
+    font-size: larger;
+    padding: 12px;
+    text-align: center;
+}
+
+#para{
+    background:linear-gradient(45deg,red , green,blue,aqua);
+    padding: 12px;
+   
+    color: goldenrod;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-clip: text;
+    color: transparent;
+    font-weight: bolder;
+    font-size: larger;
+    user-select: contain;
+     font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-shadow: 3px -1px 32px #026c7a;
+    text-rendering: geometricPrecision;
+    text-decoration: lightpink;
+}
+#para::selection{
+    color: aqua;
+    background-color: red;
+    visibility: hidden;
 }
