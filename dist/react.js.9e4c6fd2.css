@@ -1,0 +1,32 @@
+#heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#parent {
+  color: green;
+  text-shadow: 2px 2px 8px;
+  text-align: center;
+  padding: 12px;
+  font-size: larger;
+}
+
+#para {
+  color: #0000;
+  user-select: contain;
+  text-shadow: 3px -1px 32px #026c7a;
+  text-rendering: geometricPrecision;
+  background: linear-gradient(45deg, red, green, #00f, #0ff) text;
+  padding: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#para::selection {
+  color: #0ff;
+  visibility: hidden;
+  background-color: red;
+}
+/*# sourceMappingURL=react.js.9e4c6fd2.css.map */
